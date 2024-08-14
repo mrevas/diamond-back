@@ -14,16 +14,16 @@ function Banner1() {
     </ul>
   </div>
   <div className="banner-scroll-area">
-    <a href="#about">Scrool Down<i className="bi bi-arrow-right" /></a>
+    <a href="#about">Scroll Down<i className="bi bi-arrow-right" /></a>
   </div>
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-lg-10">
         <div className="banner-content">
           <span>Welcome to Diamond Back Funding</span>
-          <h1>Unlock Your Settlement <span>Sooner!</span></h1>
+          <h1>We'll Fund Your Settlement {'\n'} <span className='text-decoration-underline'>ASAP</span></h1>
           <div className="button-area">
-            <Link href="/practice-area" ><a className="eg-btn btn--primary btn--lg"><i className="bi bi-dash-lg" />Practice Area</a></Link>
+            <Link href="#contact" ><a className="eg-btn btn--primary btn--lg"> Get Started</a></Link>
             <div className="phone-call d-flex justify-content-center align-items-center flex-row">
               <div className="icon">
                 <svg width={36} height={36} viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">

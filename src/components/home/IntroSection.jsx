@@ -22,7 +22,7 @@ function IntroSection() {
           <div className="intro-wrap d-flex flex-column">
             <img src="assets/images/icons/intro-icon2.svg" alt="image" />
             <h3 className="odometer" data-odometer-final={330}><CountUp end={300} delay={2} duration={4} /></h3>
-            <h5>Happy Client</h5>
+            <h5>Happy Clients</h5>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@ function IntroSection() {
             <img src="assets/images/icons/intro-icon3.svg" alt="image" />
             {/* <h3 className="odometer" data-odometer-final={50}>50</h3> */}
             <h3 className="odometer" data-odometer-final={330}><CountUp end={100} delay={2} duration={6} /></h3>
-            <h5>Case Complete</h5>
+            <h5>Cases Complete</h5>
           </div>
         </div>
       </div>
@@ -42,8 +42,8 @@ function IntroSection() {
           <span className="s-number">04</span>
           <div className="intro-wrap d-flex flex-column">
             <img src="assets/images/icons/intro-icon4.svg" alt="image" />
-            <h3 className="odometer" data-odometer-final={330}><CountUp end={30} delay={2} duration={4} /></h3>
-            <h5>Case Closed</h5>
+            <h3 className="odometer" data-odometer-final={330}>$<CountUp end={30} delay={2} duration={4} />M+</h3>
+            <h5>Advanced</h5>
           </div>
         </div>
       </div>

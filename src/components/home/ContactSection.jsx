@@ -5,14 +5,14 @@ function ContactSection() {
   
   return (
     <>
-     <div className="contact-section pb-120">
+     <div id="contact" className="contact-section pb-120">
   <div className="container-fluid">
     <div className="row g-0">
       <div className="col-lg-6 bg--light">
         <div className="contact-wrap wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="200ms">
           <div className="section-title1 text-lg-start text-center">
             <h2>Contact Now</h2>
-            <p>In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureai mauris laoreet, iaculis libero quis.Curabitur et tempus eri consequat tincidunt.</p>
+            <p>We’re here to help. Reach out to Diamond Back for any inquiries or support, and experience our commitment to exceptional customer service firsthand.</p>
           </div>
           <ContactForm/>
         </div>
@@ -35,7 +35,7 @@ function ContactSection() {
             </div>
             <div className="text">
               <h4>Location</h4>
-              <p>168/170, Ave 01,Old York Drive Rich Mirpur, Dhaka, Bangladesh</p>
+              <p>9111 Metropolitan Ave, Rego Park, NY 11374</p>
             </div>
           </li>
           <li>
@@ -55,8 +55,7 @@ function ContactSection() {
             </div>
             <div className="text">
               <h4>Phone</h4>
-              <a href="tel:+012-3456-789102">012-3456-789102</a> <br />
-              <a href="tel:+012-3456-789102">+012-3456-789102</a>
+              <a href="tel:+888-252-6256">1-888-252-6256</a>
             </div>
           </li>
         </ul>

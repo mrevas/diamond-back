@@ -57,7 +57,7 @@ function Header() {
 
   return (
     <>
-     <header className="header-area style-1">
+     <header style={{backgroundColor: '#0081AF'}} className="header-area style-1">
   <div  className={showMobileMenu === 1 ? "main-nav show-menu" :"main-nav"}>
     <div className="mobile-logo-area d-xl-none d-flex justify-content-between align-items-center">
         <Link href="/"><a><img alt="image" src="assets/images/icons/header1-logo.svg" /></a></Link>
@@ -69,62 +69,20 @@ function Header() {
     </div>
     <ul className="menu-list">
       <li li className="menu-item-has-children" onClick={() => dispatch({type: 'home'})}>
-        <a href="#" className={state.activeMenu ==='home'?'active drop-down':'drop-down'}>Home</a><i className="bi bi-chevron-down dropdown-icon" />
-        <ul className={state.activeMenu ==='home' ? "sub-menu d-block" : "sub-menu d-none"}>
-          <li><Link href="/" className="active-menu"><a>Home 1</a></Link></li>
-          <li><Link href="/index2"><a>Home 2</a></Link></li>
-          <li><Link href="/index3"><a>Home 3</a></Link></li>
-          <li><Link href="/index4"><a>Home 4</a></Link></li>
-        </ul>
+        <a href="/" className={state.activeMenu ==='home'?'active drop-down':'drop-down'}>Home</a>
       </li>
-      <li><Link href="/about"><a>About Us</a></Link></li>
-      <li li className="menu-item-has-children" onClick={() => dispatch({type: 'practice'})}>
-        <a href="#" className={state.activeMenu ==='practice'?'active drop-down':'drop-down'}>Practice Area</a><i className="bi bi-chevron-down dropdown-icon" />
-        <ul className={state.activeMenu ==='practice' ? "sub-menu d-block" : "sub-menu d-none"}>
-          <li><Link href="/practice-area"><a>Practice Area</a></Link></li>
-          <li><Link href="/practice-details"><a>Practice Area Details</a></Link></li>
-        </ul>
-      </li>
-      <li li className="menu-item-has-children" onClick={() => dispatch({type: 'case'})}>
-        <a href="#" className={state.activeMenu ==='case'?'active drop-down':'drop-down'}>Case Study</a><i className="bi bi-chevron-down dropdown-icon" />
-        <ul className={state.activeMenu ==='case' ? "sub-menu d-block" : "sub-menu d-none"}>
-          <li><Link href="/case-study1"><a>Case Study 1</a></Link></li>
-          <li><Link href="/case-study2"><a>Case Study 2</a></Link></li>
-          <li><Link href="/casestudy-details"><a>Case Study Details</a></Link></li>
-        </ul>
-      </li>
+      <li><Link href="#about"><a>About Us</a></Link></li>
+
+
       <li li className="menu-item-has-children" onClick={() => dispatch({type: 'pages'})}>
-        <a href="#" className={state.activeMenu ==='pages'?'active drop-down':'drop-down'}>Pages</a><i className="bi bi-chevron-down dropdown-icon" />
-        <ul className={state.activeMenu ==='pages' ? "sub-menu d-block" : "sub-menu d-none"}>
-          <li><Link href="/team"><a>Lawyers</a></Link></li>
-          <li><Link href="/lawyer-details"><a>Lawyer Details</a></Link></li>
-          <li><Link href="/faq"><a>Faq</a></Link></li>
-          <li><Link href="/error"><a>Error</a></Link></li>
-          <li><Link href="#"><a>Submenu</a></Link><i className="bi bi-chevron-right dropdown-icon" />
-            <ul className="sub-menu">
-              <li><Link href="#"><a>Children 1</a></Link></li>
-              <li><Link href="#"><a>Children 2</a></Link></li>
-              <li><Link href="#"><a>Children 3</a></Link></li>
-              <li><Link href="Link"><a>Children 4</a></Link>
-              </li>
-            </ul>
-          </li>
-        </ul>
+        <a href="faq" className={state.activeMenu ==='pages'?'active drop-down':'drop-down'}>FAQ</a>
       </li>
-      <li li className="menu-item-has-children" onClick={() => dispatch({type: 'blog'})}>
-        <a href="#" className={state.activeMenu ==='blog'?'active drop-down':'drop-down'}>Blog</a><i className="bi bi-chevron-down dropdown-icon" />
-        <ul className={state.activeMenu ==='blog' ? "sub-menu d-block" : "sub-menu d-none"}>
-          <li><Link href="/blog-grid" ><a onClick={() => dispatch({type: 'blog_gird'})}  className={state.activeMenu ==='blog_gird' ? "active" : "deact dactive"}>Blog Grid</a></Link></li>
-          <li><Link href="/blog-standard"   ><a  onClick={() => dispatch({type: 'blog_standard'})} className={state.activeMenu ==='blog_standard' ? "active" : "dactive"}>Blog Standard</a></Link></li>
-          <li><Link href="/blog-details">Blog details</Link></li>
-        </ul>
-      </li>
-      <li><Link href="/contact" ><a>Contact Us</a></Link></li>
+      <li><Link href="#contact" ><a>Contact Us</a></Link></li>
     </ul>
     {/* mobile-search-area */}
     <div className="d-xl-none d-block">
       <div className="eg-btn btn--primary btn--lg d-xl-none d-flex">
-        <Link href="/contact"><a><i className="bi bi-dash-lg" />Free Cosultasion</a></Link>
+        <Link href="#contact"><a><i className="bi bi-dash-lg" />Free Cosultasion</a></Link>
       </div>
     </div>
     <div className="phone-call d-flex justify-content-start align-items-center flex-row d-xl-none d-block mt-5">
@@ -137,19 +95,19 @@ function Header() {
       </div>
       <div className="number">
         <span>Call Us Now</span>
-        <h5><a href="tel:+8801701111000">+880 170 1111 000</a></h5>
+        <h5><a href="tel:+8801701111000">1-800-252-6256</a></h5>
       </div>
     </div>
   </div>
-  <div className="header-logo">
-    <Link href="/"><a><img alt="image" src="assets/images/icons/header1-logo.svg" /></a></Link>
+  <div className="">
+    <Link href="/"><a><img width={200} height={80} alt="image" src="assets/images/icons/header1-logo-white.png" /></a></Link>
   </div>
   <div className="nav-right d-flex jsutify-content-end align-items-center gap-5">
     <div className="mobile-menu-btn d-xl-none d-block" style={{cursor: 'pointer'}} onClick={handleMobileMenu}>
       <i className="bi bi-list text-white" />
     </div>
     <div className="eg-btn btn--primary btn--lg d-xl-flex d-none">
-      <Link href="/contact"><a><i className="bi bi-dash-lg" />Free Cosultasion</a></Link>
+      <Link href="#contact"><a>Free Consultation</a></Link>
     </div>
   </div>
 </header>

@@ -9,10 +9,7 @@ function Footer() {
       <div className="row gy-5">
         <div className="col-lg-3 col-md-6">
           <div className="footer-about">
-            <img src="assets/images/icons/header1-logo.svg" alt="image" />
-            <p>Integer purus odio, placerat nec andi
-              rhoncus in, ullamcorper nec dolorali
-              aptent taciti sociosqu.</p>
+            <img width={250} src="assets/images/icons/header1-logo-white.png" alt="image" />
             <ul className="footer-social gap-4">
               <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
               <li><a href="https://www.twitter.com/"><i className="bx bxl-twitter" /></a></li>
@@ -20,9 +17,9 @@ function Footer() {
               <li><a href="https://www.pinterest.com/"><i className="bx bxl-pinterest" /></a></li> 
             </ul>
             <div className="open-hour">
-              <h6>Open Hour</h6>
-              <p>Monday To Saturday,       
-                9.00 AM - 10.30 PM</p>
+              <h6>Business Hours</h6>
+              <p>Monday To Friday,       
+                9.00 AM - 5.00 PM</p>
             </div>
           </div>
         </div>
@@ -30,18 +27,18 @@ function Footer() {
           <div className="footer-item">
             <h4>Practice Area</h4>
             <ul className="link-list">
-              <li><Link href="/practice-details"><a>Business Law</a></Link></li>
-              <li><Link href="/practice-details"><a>Work Accident</a></Link></li>
-              <li><Link href="/practice-details"><a>Criminal Law</a></Link></li>
-              <li><Link href="/practice-details"><a>Real State Law</a></Link></li>
-              <li><Link href="/practice-details"><a>Drug Offense</a></Link></li>
-              <li><Link href="/practice-details"><a>Juvenile Crime</a></Link></li>
+              <li><Link href="/"><a>Business Law</a></Link></li>
+              <li><Link href="/"><a>Work Accident</a></Link></li>
+              <li><Link href="/"><a>Criminal Law</a></Link></li>
+              <li><Link href="/"><a>Real State Law</a></Link></li>
+              <li><Link href="/"><a>Drug Offense</a></Link></li>
+              <li><Link href="/"><a>Juvenile Crime</a></Link></li>
             </ul>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 d-flex justify-content-lg-center">
           <div className="footer-item">
-            <h4>Contacts</h4>
+            <h4>Phone Number</h4>
             <ul className="contact-list">
               <li>
                 <div className="icon">
@@ -59,8 +56,7 @@ function Footer() {
                   </svg>
                 </div>
                 <div className="text">
-                  <a href="tel:+8801761111456">+880 176 1111 456</a> 
-                  <a href="tel:+8801761111458" className="mb-0">+880 176 1111 458</a>
+                  <a href="tel:+18002526256">1-800-252-6256</a> 
                 </div>
               </li>
               <li>
@@ -95,41 +91,7 @@ function Footer() {
                   </svg>
                 </div>
                 <div className="text">
-                  168/170, Avenue 01, Mirpur DOHS, Bangladesh
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-6 d-flex justify-content-lg-end">
-          <div className="footer-item">
-            <h4>Recent Case</h4>
-            <ul className="recent-caselist">
-              <li>
-                <div className="image">
-                  <img src="assets/images/blog/recent-case1.png" alt="image" />
-                </div>
-                <div className="text">
-                  <span>skirmish</span>
-                  <h5><Link href="/casestudy-details"><a>Education Law</a></Link></h5>
-                </div>
-              </li>
-              <li>
-                <div className="image">
-                  <img src="assets/images/blog/recent-case2.png" alt="image" />
-                </div>
-                <div className="text">
-                  <span>skirmish</span>
-                  <h5><Link href="/casestudy-details"><a>Personal injury</a></Link></h5>
-                </div>
-              </li>
-              <li>
-                <div className="image">
-                  <img src="assets/images/blog/recent-case3.png" alt="image" />
-                </div>
-                <div className="text">
-                  <span>skirmish</span>
-                  <h5><Link href="/casestudy-details"><a>Drug Offense</a></Link></h5>
+                  9111 Metropolitan Ave, Rego Park, NY 11374
                 </div>
               </li>
             </ul>

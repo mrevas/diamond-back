@@ -50,8 +50,7 @@ function Testimonial1() {
     <div className="row justify-content-center">
       <div className="col-md-5">
         <div className="section-title1 text-center">
-          <h2>Testimonial</h2>
-          <p>In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis.Curabitur et tempus eri consequat tincidunt.</p>
+          <h2>Testimonials</h2>
         </div>
       </div>
     </div>
@@ -65,15 +64,15 @@ function Testimonial1() {
               <div className="image">
                 <img src="assets/images/bg/testi31.png" alt="image" />
                 <div className="img-content">
-                  <h3>Sebastian Ethan</h3>
-                  <span>Crime Case</span>
+                  <h3>Jaon R.</h3>
+                  <span>Chicago, IL</span>
                 </div>
               </div>
               <div className="content">
                 <img src="assets/images/icons/testi-quote.svg" className="testi3-quote" alt="image" />
-                <p>Curabitur magna nisi, egestas quis est in, finibus pulvinar ipsumai ni
-                  Nunc sitaa amet do odiotadin gone interdum, maximus dolorbankon quis, ullamcorper lectus. Mauris vitaelai faucibus andijovan godmar
-                  libero. Curabitur eu convallis purus. Nunc accumsan diam in thelicol arcubl pellentesque odiotadin gone interdum, maximus dolorbankon quis, foxthure themego odio. </p>
+                <p>I was worried about how I'd make ends meet while my case dragged on, but Diamond Back gave me the financial support I needed. 
+                  Their team was compassionate and professional, and the process was surprisingly fast. I couldn't be more grateful! 
+                  I received <bold style={{fontWeight: 'bold'}}>$25,000</bold>, which helped me stay afloat during the toughest time.</p>
                 <span className="ms-auto">01</span>
               </div>
             </div>
@@ -83,15 +82,15 @@ function Testimonial1() {
               <div className="image">
                 <img src="assets/images/bg/testi32.png" alt="image" />
                 <div className="img-content">
-                  <h3>Angelo Marks</h3>
-                  <span>Family Case</span>
+                  <h3>Michael L.</h3>
+                  <span>New York, NY</span>
                 </div>
               </div>
               <div className="content">
                 <img src="assets/images/icons/testi-quote.svg" className="testi3-quote" alt="image" />
-                <p>Curabitur magna nisi, egestas quis est in, finibus pulvinar ipsumai ni
-                  Nunc sitaa amet do odiotadin gone interdum, maximus dolorbankon quis, ullamcorper lectus. Mauris vitaelai faucibus andijovan godmar
-                  libero. Curabitur eu convallis purus. Nunc accumsan diam in thelicol arcubl pellentesque odiotadin gone interdum, maximus dolorbankon quis, foxthure themego odio. </p>
+                <p>The team at Diamond Back was incredibly helpful and responsive. I never felt like I was just another client—they truly cared about my situation. 
+                  The funding allowed me to focus on my case without worrying about finances.
+                  The <bold style={{fontWeight: 'bold'}}>$40,000</bold> they provided allowed me to fight for the justice I deserved.</p>
                 <span className="ms-auto">02</span>
               </div>
             </div>
