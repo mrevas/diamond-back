@@ -15,10 +15,10 @@ function About1() {
                     </div>
                     <div className="about-content1">
                     <h3>We make it 🌧️ daily.</h3>
-                    <span>(As in, money. We don’t control the weather.)</span>
+                    <span>(As in, money. We don&apos;t control the weather.)</span>
                     <div className="lawyer-word">
                         <p>At Diamond Back Funding, we understand the financial strain that can come with a long legal battle. 
-                        That's why we're committed to providing fast, transparent, and reliable pre-settlement funding, 
+                        That&apos;s why we&apos;re committed to providing fast, transparent, and reliable pre-settlement funding, 
                         so you can focus on what really matters—getting the justice you deserve.</p>
                         <img src="assets/images/icons/lawyer-sign.svg" alt="image" />
                         <h6>Simantov Abayev, CEO-Founder</h6>

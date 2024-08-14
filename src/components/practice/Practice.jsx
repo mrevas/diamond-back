@@ -146,8 +146,8 @@ function Practice() {
           </div>
         </div>
         <div className="row justify-content-center g-4">
-          {diamondBackInfo.services.map((service) => {
-          return (<div className="col-lg-4 col-md-6 col-sm-10">
+          {diamondBackInfo.services.map((service, indx) => {
+          return (<div key={indx} className="col-lg-4 col-md-6 col-sm-10">
             <div className="practice-single wow animate fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.2s">
               <div className="header">
                 {service.icon}

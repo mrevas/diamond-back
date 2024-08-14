@@ -21,7 +21,7 @@ function Banner1() {
       <div className="col-lg-10">
         <div className="banner-content">
           <span>Welcome to Diamond Back Funding</span>
-          <h1>We'll Fund Your Settlement {'\n'} <span className='text-decoration-underline'>ASAP</span></h1>
+          <h1>We&apos;ll Fund Your Settlement {'\n'} <span className='text-decoration-underline'>ASAP</span></h1>
           <div className="button-area">
             <Link href="#contact" ><a className="eg-btn btn--primary btn--lg"> Get Started</a></Link>
             <div className="phone-call d-flex justify-content-center align-items-center flex-row">

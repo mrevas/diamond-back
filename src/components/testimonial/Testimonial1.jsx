@@ -70,8 +70,8 @@ function Testimonial1() {
               </div>
               <div className="content">
                 <img src="assets/images/icons/testi-quote.svg" className="testi3-quote" alt="image" />
-                <p>I was worried about how I'd make ends meet while my case dragged on, but Diamond Back gave me the financial support I needed. 
-                  Their team was compassionate and professional, and the process was surprisingly fast. I couldn't be more grateful! 
+                <p>I was worried about how I&apos;d make ends meet while my case dragged on, but Diamond Back gave me the financial support I needed. 
+                  Their team was compassionate and professional, and the process was surprisingly fast. I couldn&apos;t be more grateful! 
                   I received <bold style={{fontWeight: 'bold'}}>$25,000</bold>, which helped me stay afloat during the toughest time.</p>
                 <span className="ms-auto">01</span>
               </div>

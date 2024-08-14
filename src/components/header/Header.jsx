@@ -69,7 +69,7 @@ function Header() {
     </div>
     <ul className="menu-list">
       <li li className="menu-item-has-children" onClick={() => dispatch({type: 'home'})}>
-        <a href="/" className={state.activeMenu ==='home'?'active drop-down':'drop-down'}>Home</a>
+        <Link href="/" className={state.activeMenu ==='home'?'active drop-down':'drop-down'}>Home</Link>
       </li>
       <li><Link href="#about"><a>About Us</a></Link></li>
 
